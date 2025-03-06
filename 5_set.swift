@@ -23,3 +23,9 @@ print()
 
 print(interns.count)        //.count
 print()
+
+//ANYHASHABLE
+var internss: Set<AnyHashable> = ["GAJINDER", "DIVAY", "SOM", "VAANI","ABHI","AJAY","AJAY","SOM","VAANI",1,2,3,4,4,4,5,5]
+
+print(internss)
+print()
