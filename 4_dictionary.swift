@@ -14,3 +14,10 @@ print(interns["name",default: "Unknown"])      //Give a default value if key not
 //EMPTY DICTIONARY
 var heights = [String : Int]()
 print(heights)
+
+var dict = [String:Int]()
+dict = [
+    "Gajinder" : 20,
+     "SOM" : 20
+]
+print(dict)
