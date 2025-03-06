@@ -22,6 +22,11 @@ var arr2 = [String]()
 print("EMPTY ARRAY 2 : \(arr2)")
 print()
 
+
+var arr3 : [Int] = []
+print("EMPTY ARRAY 3 : \(arr3)")
+print()
+
 //ARRAY METHODS
 names.append("SOM")     //.append
 print("Updated Names array : \(names)")
