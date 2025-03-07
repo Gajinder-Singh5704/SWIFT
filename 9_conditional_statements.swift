@@ -12,7 +12,7 @@ enum temp : Comparable {
 }
 
 let temp_2 = temp.low
-let temp_1 = temp.high
+let temp_1 = temp.high 
 
 print(temp_1 > temp_2)  //The output will be true because low comes before high in the enum list.
 
