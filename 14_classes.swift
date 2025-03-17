@@ -21,7 +21,24 @@ class Students {
     }
 }
 
+//INHERITANCE
+class Semester : Students {
+    var sem : Int
+    
+    init(sem : Int, name : String, course : String, id : Int){
+        self.sem = 6
+        super.init( id : id, name : name, course : course)
+    }
+    
+    //OVERRIDING PARENT FUNCTION
+    override func getInfo(){
+        super.getInfo()
+        print("Semester : \(sem)")
+    }
+}
 //INSTANTIATION OF CLASS
 let student1 = Students(id : 2211587, name : "Gajinder" , course : "BCA")
-//CALLING CLASS FUNCTION
-student1.getInfo()
+
+//INHERITED CLASSS
+let sem =  Semester(sem : 6, name : "Som", course : "BCA", id : 2211623)
+sem.getInfo()
