@@ -15,3 +15,11 @@ while(i<11){
     print("3 X \(i) = \(3*i)")
     i += 1
 }
+
+//REPEAT WHILE LOOP
+var i = 0
+repeat{
+    print(i)
+    i += 1
+}
+while(i<15)
